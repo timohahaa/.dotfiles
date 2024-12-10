@@ -1,0 +1,13 @@
+alias ls='ls --color=auto'
+alias lss='ls -lash'
+
+
+alias grep='grep --color=auto'
+
+alias jp='/home/timohahaa/.local/bin/jupyter'
+alias jpn='/home/timohahaa/.local/bin/jupyter-notebook'
+
+
+# ZSH
+alias d='dirs -v'
+for index ({1..9}) alias "$index"="cd +${index} > /dev/null"; unset index # directory stack
