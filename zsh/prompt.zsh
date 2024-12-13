@@ -18,5 +18,7 @@ autoload -Uz add-zsh-hook
 add-zsh-hook precmd prompt_precmd
 
 #export PROMPT=$'%B%F{green}%~ %F{#FFFFFF}❱%f%b ${vcs_info_msg_0_}❱ '
-export PROMPT=$'%B%F{green}%~ %F{#FFFFFF}❱%f%b '
+export PROMPT=$'%B%F{magenta}${vcs_info_msg_0_}%f %F{green}%~ %F{#FFFFFF}❱%f%b '
 #export PROMPT="%B%K{$w}%F{blue}%~ %K{blue}%F{$w}$t%k%F{blue}$t%f%b "
+
+#export RPROMPT=$'%F{magenta}${vcs_info_msg_0_}%f'
