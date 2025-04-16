@@ -9,6 +9,7 @@
   "cyberdream.nvim": { "branch": "main", "commit": "4f402704f52acb53306d63f7eae1003871f723f2" },
   "darkvoid.nvim": { "branch": "master", "commit": "8c637ccf504f6ea8efd181bdb278f36b77086f94" },
   "everforest-nvim": { "branch": "main", "commit": "2c40c11b971da120796564e69aecce7e7c82a854" },
+  "evergarden": { "branch": "mega", "commit": "289a18f1fb1cf0095007ddbcf58d6325408529ff" },
   "flow.nvim": { "branch": "main", "commit": "3af4d4d1b8a99c34e060de6fdaa5babc596a50c1" },
   "friendly-snippets": { "branch": "main", "commit": "00ebcaa159e817150bd83bfe2d51fa3b3377d5c4" },
   "github-nvim-theme": { "branch": "main", "commit": "6b461635230ccb5d0037f378fbe05a27c4ccf7cd" },
