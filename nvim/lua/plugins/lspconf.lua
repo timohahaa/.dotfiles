@@ -7,7 +7,7 @@ require("mason-lspconfig").setup({
     "dockerls",
     "docker_compose_language_service",
     "rust_analyzer",
-    "tsserver",
+    "ts_ls",
     "jsonls",
     "eslint",
     "html",

@@ -26,3 +26,6 @@ nm("<leader>ff", ":Telescope find_files<CR>", opts)
 nm("<leader>fs", ":Telescope grep_string<CR>", opts)
 nm("<leader>lg", ":Telescope live_grep<CR>", opts)
 nm("<leader>cs", ":Telescope colorscheme<CR>", opts)
+
+nm("<leader>mdp", ":MarkdownPreview<CR>", opts)
+nm("<leader>mdps", ":MarkdownPreviewStop<CR>", opts)
