@@ -1,5 +1,5 @@
 require('darkvoid').setup({
-  transparent = true,        -- set true for transparent
+  transparent = false,       -- set true for transparent
   glow = true,               -- set true for glow effect
   show_end_of_buffer = true, -- set false for not showing end of buffer
 

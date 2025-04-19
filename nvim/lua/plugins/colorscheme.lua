@@ -1,15 +1,15 @@
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 
-require('colorshemes/catppuccin')
-require('colorshemes/monet')
-require('colorshemes/kanagawa')
-require('colorshemes/tokyonight')
-require('colorshemes/rose-pine')
-require('colorshemes/nightfox')
-require('colorshemes/darkvoid')
-require('colorshemes/flow')
-require('colorshemes/material')
+require('colorschemes/catppuccin')
+require('colorschemes/monet')
+require('colorschemes/kanagawa')
+require('colorschemes/tokyonight')
+require('colorschemes/rose-pine')
+require('colorschemes/nightfox')
+require('colorschemes/darkvoid')
+require('colorschemes/flow')
+require('colorschemes/material')
 
 --vim.cmd.colorscheme "catppuccin"
 --vim.cmd.colorscheme "monet"

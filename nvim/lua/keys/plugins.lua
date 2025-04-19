@@ -29,3 +29,8 @@ nm("<leader>cs", ":Telescope colorscheme<CR>", opts)
 
 nm("<leader>mdp", ":MarkdownPreview<CR>", opts)
 nm("<leader>mdps", ":MarkdownPreviewStop<CR>", opts)
+
+
+local random_colorscheme = require('colorschemes.random')
+vim.keymap.set('n', '<leader>rc', random_colorscheme.choose, opts)
+

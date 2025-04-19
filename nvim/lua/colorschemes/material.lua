@@ -1,5 +1,4 @@
 require('material').setup({
-
   contrast = {
     terminal = false,           -- Enable contrast for the built-in terminal
     sidebars = true,            -- Enable contrast for sidebar-like windows ( for example Nvim-Tree )
@@ -74,4 +73,3 @@ require('material').setup({
 
   custom_highlights = {},    -- Overwrite highlights with your own
 })
-

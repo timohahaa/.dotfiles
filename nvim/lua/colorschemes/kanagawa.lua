@@ -1,6 +1,5 @@
 require('kanagawa').setup({
-  --transparent = true,
   theme = "dragon",
-  transparent = true,
+  transparent = false,
 })
 --vim.cmd([[colorscheme kanagawa]])
