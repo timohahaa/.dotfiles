@@ -48,3 +48,5 @@ opt.wrap = true
 -- command only (this is most useful in mappings) with the :confirm
 -- command."
 opt.confirm = true
+
+opt.fillchars = 'eob: '

@@ -87,71 +87,26 @@ require("lazy").setup({
     end,
   },
   {
-    "catppuccin/nvim",
-    name = "catppuccin",
+    'marko-cerovac/material.nvim',
     lazy = false,
     priority = 100000,
     config = function()
+      -- this loads other colorschemes
+      -- probably should redo this
       require("plugins/colorscheme")
     end
   },
-  'slugbyte/lackluster.nvim',
-  "neanias/everforest-nvim",
+  { "catppuccin/nvim",  name = "catppuccin" },
   "rebelot/kanagawa.nvim",
   "fynnfluegge/monet.nvim",
-  'ellisonleao/gruvbox.nvim',
   "folke/tokyonight.nvim",
-  "killitar/obscure.nvim",
-  "sainnhe/sonokai",
-  "vague2k/vague.nvim",
-  "scottmckendry/cyberdream.nvim",
   { "rose-pine/neovim", name = "rose-pine" },
   "EdenEast/nightfox.nvim",
   'aliqyan-21/darkvoid.nvim',
   "0xstepit/flow.nvim",
-  'projekt0n/github-nvim-theme',
-  "Zeioth/neon.nvim",
   'bettervim/yugen.nvim',
   "love-pengy/lillilac.nvim",
   'marko-cerovac/material.nvim',
-  {
-    url = "https://codeberg.org/jthvai/lavender.nvim",
-    branch = "stable", -- versioned tags + docs updates from main
-    lazy = false,
-    priority = 1000,
-    config = function()
-      vim.g.lavender = {
-        transparent = {
-          background = true, -- do not render the main background
-          float      = true, -- do not render the background in floating windows
-          popup      = true, -- do not render the background in popup menus
-          sidebar    = true, -- do not render the background in sidebars
-        },
-      }
-    end
-  },
-  {
-    'everviolet/nvim',
-    name = 'evergarden',
-    priority = 1000, -- Colorscheme plugin is loaded first before any other plugins
-    opts = {
-      theme = {
-        variant = 'fall', -- 'winter'|'fall'|'spring'|'summer'
-        accent = 'green',
-      },
-      editor = {
-        transparent_background = false,
-        sign = { color = 'none' },
-        float = {
-          color = 'mantle',
-          invert_border = false,
-        },
-        completion = {
-          color = 'surface0',
-        },
-      },
-    }
-  },
   -------------------------------------------------------------
   -- ui stuff: file explorer, lualine, tabs, highlights, etc --
   -------------------------------------------------------------
