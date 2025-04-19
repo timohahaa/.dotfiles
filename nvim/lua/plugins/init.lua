@@ -235,4 +235,11 @@ require("lazy").setup({
       require('plugins/comment')
     end
   },
+  {
+    'echasnovski/mini.move',
+    version = false,
+    config = function()
+      require('plugins/mini-move')
+    end
+  },
 })
