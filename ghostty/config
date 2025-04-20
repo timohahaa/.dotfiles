@@ -7,7 +7,12 @@ cursor-style = block
 shell-integration-features = no-cursor
 
 background-opacity = 1
-
 maximize = true
-
 window-theme = ghostty
+
+
+keybind = shift+ctrl+t=new_tab
+keybind = ctrl+n=next_tab
+keybind = ctrl+p=next_tab
+keybind = ctrl+x=close_surface
+keybind = ctrl+shift+r=reload_config
