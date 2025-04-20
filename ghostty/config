@@ -1,0 +1,13 @@
+font-family = "Hack Nerd Font Mono"
+font-size = 14
+
+theme = MaterialOcean
+
+cursor-style = block
+shell-integration-features = no-cursor
+
+background-opacity = 1
+
+maximize = true
+
+window-theme = ghostty
