@@ -13,6 +13,8 @@ window-theme = ghostty
 
 keybind = shift+ctrl+t=new_tab
 keybind = ctrl+n=next_tab
-keybind = ctrl+p=next_tab
+keybind = ctrl+p=previous_tab
 keybind = ctrl+x=close_surface
 keybind = ctrl+shift+r=reload_config
+keybind = ctrl+shift+n=move_tab:1
+keybind = ctrl+shift+p=move_tab:-1
