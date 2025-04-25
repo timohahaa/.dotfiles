@@ -7,6 +7,8 @@ alias grep='grep --color=auto'
 alias jp='/home/timohahaa/.local/bin/jupyter'
 alias jpn='/home/timohahaa/.local/bin/jupyter-notebook'
 
+alias fpr='ffprobe -print_format json -show_format -show_streams'
+
 
 # ZSH
 alias d='dirs -v'

@@ -10,6 +10,7 @@ background-opacity = 1
 maximize = true
 window-theme = ghostty
 
+confirm-close-surface = false
 
 keybind = shift+ctrl+t=new_tab
 keybind = ctrl+n=next_tab
