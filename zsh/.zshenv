@@ -14,6 +14,7 @@ export TERM="xterm-256color"
 
 source $ZDOTDIR/.private
 
+export PATH=/opt/homebrew/bin:$PATH
 
 # nvim 
 export PATH="$HOME/.local/share/nvim/mason/bin/:$PATH" # mason lsp

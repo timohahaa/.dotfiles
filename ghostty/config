@@ -1,5 +1,5 @@
 font-family = "Hack Nerd Font Mono"
-font-size = 14
+font-size = 16
 
 theme = MaterialOcean
 
@@ -11,6 +11,8 @@ maximize = true
 window-theme = ghostty
 
 confirm-close-surface = false
+macos-option-as-alt = true
+font-feature = -calt, -liga, -dlig
 
 keybind = shift+ctrl+t=new_tab
 keybind = ctrl+n=next_tab
