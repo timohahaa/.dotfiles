@@ -107,6 +107,10 @@ require("lazy").setup({
   'bettervim/yugen.nvim',
   "love-pengy/lillilac.nvim",
   'marko-cerovac/material.nvim',
+  "biisal/blackhole",
+  "forest-nvim/sequoia.nvim",
+  "devoc09/sphere.vim",
+  "74k1/yueye.nvim",
   -------------------------------------------------------------
   -- ui stuff: file explorer, lualine, tabs, highlights, etc --
   -------------------------------------------------------------
@@ -134,7 +138,27 @@ require("lazy").setup({
       require("plugins/bufferline")
     end,
   },
+  {
+    "rcarriga/nvim-notify",
+    lazy = false,
+    priority = 100,
+    config = function()
+      require("notify").setup({
+        stages = "static",
+        timeout = 1000,
+        icons = {
+          ERROR = "",
+          WARN = "",
+          INFO = "",
+          DEBUG = "",
+          TRACE = "✎",
+        },
+      })
 
+      -- Override vim.notify after setup
+      vim.notify = require("notify")
+    end,
+  },
   -------------------------
   -- other usefull stuff --
   -------------------------

@@ -12,8 +12,7 @@ require("mason-lspconfig").setup({
     "eslint",
     "html",
     "cssls",
-    "volar",
-    "clangd",
+    --"clangd",
   },
   automatic_installation = true,
 })
@@ -27,7 +26,7 @@ require('language-servers/golang')
 require('language-servers/python')
 require('language-servers/docker')
 require('language-servers/rust')
-require('language-servers/c-cpp')
+--require('language-servers/c-cpp')
 require('language-servers/typescript')
 require('language-servers/json')
 require('language-servers/html')

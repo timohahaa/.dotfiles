@@ -17,4 +17,5 @@ require('colorschemes/material')
 --vim.cmd.colorscheme "github_dark_default"
 --vim.cmd.colorscheme "rose-pine"
 --vim.cmd.colorscheme "tokyonight"
+--vim.cmd.colorscheme "sequoia-insomnia"
 vim.cmd.colorscheme "material-deep-ocean"
