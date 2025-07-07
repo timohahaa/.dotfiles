@@ -32,3 +32,7 @@ require('language-servers/json')
 require('language-servers/html')
 require('language-servers/css')
 require('language-servers/other')
+
+vim.diagnostic.config({
+  virtual_text = true,
+})

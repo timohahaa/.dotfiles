@@ -138,27 +138,27 @@ require("lazy").setup({
       require("plugins/bufferline")
     end,
   },
-  {
-    "rcarriga/nvim-notify",
-    lazy = false,
-    priority = 100,
-    config = function()
-      require("notify").setup({
-        stages = "static",
-        timeout = 1000,
-        icons = {
-          ERROR = "",
-          WARN = "",
-          INFO = "",
-          DEBUG = "",
-          TRACE = "✎",
-        },
-      })
-
-      -- Override vim.notify after setup
-      vim.notify = require("notify")
-    end,
-  },
+  --  {
+  --    "rcarriga/nvim-notify",
+  --    lazy = false,
+  --    priority = 100,
+  --    config = function()
+  --      require("notify").setup({
+  --        stages = "static",
+  --        timeout = 1000,
+  --        icons = {
+  --          ERROR = "",
+  --          WARN = "",
+  --          INFO = "",
+  --          DEBUG = "",
+  --          TRACE = "✎",
+  --        },
+  --      })
+  --
+  --      -- Override vim.notify after setup
+  --      vim.notify = require("notify")
+  --    end,
+  --  },
   -------------------------
   -- other usefull stuff --
   -------------------------
