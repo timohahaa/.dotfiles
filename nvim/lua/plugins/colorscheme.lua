@@ -18,4 +18,5 @@ require('colorschemes/material')
 --vim.cmd.colorscheme "rose-pine"
 --vim.cmd.colorscheme "tokyonight"
 --vim.cmd.colorscheme "sequoia-insomnia"
-vim.cmd.colorscheme "material-deep-ocean"
+--vim.cmd.colorscheme "material-deep-ocean"
+vim.cmd.colorscheme "terafox"

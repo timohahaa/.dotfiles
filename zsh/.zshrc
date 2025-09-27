@@ -31,3 +31,4 @@ source $ZDOTDIR/prompt.zsh
 
 # COMPLETION
 autoload -Uz compinit; compinit
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"

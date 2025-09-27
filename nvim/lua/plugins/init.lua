@@ -111,6 +111,8 @@ require("lazy").setup({
   "forest-nvim/sequoia.nvim",
   "devoc09/sphere.vim",
   "74k1/yueye.nvim",
+  "Abstract-IDE/Abstract-cs",
+  'mathofprimes/nightvision-nvim',
   -------------------------------------------------------------
   -- ui stuff: file explorer, lualine, tabs, highlights, etc --
   -------------------------------------------------------------
