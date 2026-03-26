@@ -2,7 +2,8 @@ font-family = "Hack Nerd Font Mono"
 font-size = 16
 
 #theme = MaterialOcean
-theme = terafox
+#theme = terafox
+theme = carbonfox
 
 cursor-style = block
 shell-integration-features = no-cursor

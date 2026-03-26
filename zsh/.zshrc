@@ -31,4 +31,8 @@ source $ZDOTDIR/prompt.zsh
 
 # COMPLETION
 autoload -Uz compinit; compinit
+
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+export PATH="/Users/timohahaa/Library/Python/3.9/bin:$PATH"
+
+. "$HOME/.local/bin/env"
