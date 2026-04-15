@@ -10,3 +10,5 @@ nm("<leader>lr", ":LspRestart<CR>", opts)
 
 nm("<leader>q\"", "ciw\"\"<Esc>P", opts)
 nm("<leader>q\'", "ciw\'\'<Esc>P", opts)
+
+nm("<leader>ga", ":silent !git add %<CR>", opts)
